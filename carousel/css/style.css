@@ -1,0 +1,37 @@
+@charset 'utf-8';
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+}
+li {
+  list-style-type: none;
+}
+h1 {
+  text-align: center;
+}
+
+/* carouse css */
+.carousel_field {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.next, .pre {
+    width: 20px;
+    height: 20px;
+    border-bottom: 10px solid #000;
+    border-left: 10px solid #000;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    left: 20px;
+}
+.pre {
+  left: auto;
+	right: 20px;
+  transform: rotate(225deg);
+}
